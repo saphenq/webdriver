@@ -4,3 +4,4 @@ Login,input_userName,input,signInUserIdField.centeredBlockContent.ng-pristine.ng
 ,img_background,img,signInHeader.centeredBlockContent,,,src,component/login/background-login.png
 ,span_text,span,noty_text,,,,Enter your user ID
 ,button_btn-primary,button,btn btn-primary,,,,NA
+,test,,,,,,
