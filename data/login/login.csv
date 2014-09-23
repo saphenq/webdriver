@@ -1,0 +1,6 @@
+prefix,key,tag,class,tag_1,class_1,attribute,expect
+Login,input_userName,input,signInUserIdField.centeredBlockContent.ng-pristine.ng-valid,,,placeholder,Enter Your User ID
+,button_signIn,div,signInButton.centeredBlockContent,,,,NA
+,img_background,img,signInHeader.centeredBlockContent,,,src,component/login/background-login.png
+,span_text,span,noty_text,,,,Enter your user ID
+,button_btn-primary,button,btn btn-primary,,,,NA

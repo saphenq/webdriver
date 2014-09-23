@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="EWM" verbose="1" >
+<listeners>
+    <listener class-name="com.ubs.ewm.test.listener.CustomListener" />
+  </listeners>
+  
+ <!--  <test name="LoginPage"   >
+  <classes>
+    <class name="com.ubs.ewm.test.cases.LoginPage"/>
+  </classes>
+ </test> -->
+  <test name="Overviews"   >
+   <classes>
+    <class name="com.ubs.ewm.test.cases.Overviews"/>
+  </classes>
+ </test>
+</suite>
