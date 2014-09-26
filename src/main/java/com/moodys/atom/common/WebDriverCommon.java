@@ -1,4 +1,4 @@
-package com.ubs.ewm.test.common;
+package com.moodys.atom.common;
 
 import java.util.List;
 
@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.ubs.ewm.test.exception.CustomizedTimeoutException;
+import com.moodys.atom.exception.CustomizedTimeoutException;
 
 public class WebDriverCommon{
 	
@@ -68,5 +68,14 @@ public class WebDriverCommon{
 			return false;
 		}
 		
+	}
+
+	public static WebElement waitElementByXpath(WebDriverWait wait, final String xpath) {
+		WebElement webElement = wait.until(new ExpectedCondition<WebElement>() {
+			public WebElement apply(WebDriver d) {
+				return d.findElement(By.xpath(xpath));
+			}
+		});
+		return webElement;
 	}
 }

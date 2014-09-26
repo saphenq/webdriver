@@ -1,4 +1,4 @@
-package com.ubs.ewm.test.report;
+package com.moodys.atom.report;
 
 import java.io.File;
 
@@ -9,7 +9,7 @@ import javax.xml.transform.stream.StreamSource;
 
 import net.sf.saxon.TransformerFactoryImpl;
 
-import com.ubs.ewm.test.base.Base;
+import com.moodys.atom.base.Base;
 
 public class XsltReport extends Base {
 

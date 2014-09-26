@@ -1,13 +1,14 @@
-package com.ubs.ewm.test.cases;
+package com.moodys.atom.cases;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.ubs.ewm.test.base.Case;
-import com.ubs.ewm.test.common.Assertion;
-import com.ubs.ewm.test.common.RobotCommons;
-import com.ubs.ewm.test.common.WebDriverCommon;
-import com.ubs.ewm.test.entity.CsvRecordEntity;
+import com.moodys.atom.base.Case;
+import com.moodys.atom.common.Assertion;
+import com.moodys.atom.common.RobotCommons;
+import com.moodys.atom.common.WebDriverCommon;
+import com.moodys.atom.entity.CsvRecordEntity;
+
 
 public class LoginPage extends Case {
 	private static final String CSV_PATH = "data/login/login.csv";

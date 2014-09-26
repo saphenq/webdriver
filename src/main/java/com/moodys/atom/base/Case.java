@@ -1,4 +1,4 @@
-package com.ubs.ewm.test.base;
+package com.moodys.atom.base;
 
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;

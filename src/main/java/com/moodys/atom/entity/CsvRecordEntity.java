@@ -1,11 +1,11 @@
-package com.ubs.ewm.test.entity;
+package com.moodys.atom.entity;
 
 import java.util.Map;
 
 import org.apache.commons.csv.CSVRecord;
 import org.apache.commons.lang3.StringUtils;
 
-import com.ubs.ewm.test.common.LoadCsvData;
+import com.moodys.atom.common.LoadCsvData;
 
 public class CsvRecordEntity {
 
@@ -27,6 +27,10 @@ public class CsvRecordEntity {
 
 	public String getTag() {
 		return StringUtils.trim(elements.get(key).get("tag"));
+	}
+	
+	public String getId() {
+		return StringUtils.trim(elements.get(key).get("id"));
 	}
 
 	public String getClazz() {
@@ -62,6 +66,11 @@ public class CsvRecordEntity {
 	
 	public void setExpect(String expect){
 		this.expect = expect;
+	}
+
+	public String getXpath() {
+		
+		return StringUtils.trim(elements.get(key).get("xpath"));
 	}
 
 }

@@ -1,11 +1,11 @@
-package com.ubs.ewm.test.main;
+package com.moodys.atom.main;
 
 import java.util.Arrays;
 
 import org.testng.TestNG;
 
-import com.ubs.ewm.test.base.Base;
-import com.ubs.ewm.test.report.XsltReport;
+import com.moodys.atom.base.Base;
+import com.moodys.atom.report.XsltReport;
 
 public class App extends Base{
 

@@ -1,4 +1,4 @@
-package com.ubs.ewm.test.base;
+package com.moodys.atom.base;
 
 import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.WebDriver;

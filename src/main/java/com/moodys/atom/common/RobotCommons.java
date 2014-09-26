@@ -1,4 +1,4 @@
-package com.ubs.ewm.test.common;
+package com.moodys.atom.common;
 
 import java.awt.Robot;
 import java.awt.Toolkit;
@@ -6,7 +6,7 @@ import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 
-import com.ubs.ewm.test.base.Base;
+import com.moodys.atom.base.Base;
 
 public class RobotCommons extends Base{
 	public static boolean isAuthorized=false;

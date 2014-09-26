@@ -1,38 +1,6 @@
-prefix,key,tag,class,tag_1,class_1,attribute,expect
-Overview,ewmSecondHeaderTitle,span,ng-binding ewmSecondHeaderTitle,,,,Overview
-,portfolioListSelect,img,portfolioListSelect,,,src,img/icon-header-arrow.png
-,ewmMainHeaderLeftTitle,span,ewmDropdownHead ewmMainHeaderLeftTitle ng-binding,,,,All Portfolios
-,ewmMainIcon,,.ewmMainHeaderCenter .ewmMainIcon,,,background-image,img/ubs_icon_sprite.png
-,ewmMainHeaderDateStamp,div,ewmMainHeaderDateStamp,,,,CURRENT AS OF
-,ewmMainHeaderCurrentDate,div,ewmMainHeaderCurrentDate,,,,NA
-,ewmMainIcon_assets,span,ewmMainIcon assets,,,,NA
-,ewmMainIcon_currency,span,ewmMainIcon currency,,,,NA
-,ewmMainIcon_regional,span,ewmMainIcon regional,,,,NA
-,ewmMainIcon_overview,span,ewmMainIcon overview,,,,NA
-,ewmMainIcon_assets_selected,span,ewmMainIcon assets selected,,,,NA
-,ewmSecondHeaderButtonSelected,span,ng-binding ewmSecondHeaderButtonSelected,,,,Summary
-,ewmSecondHeaderButtonUnselectedPerformance,,span[ng-click="selectSubview(performanceSelectorName)"],span,ng-binding ewmSecondHeaderButtonUnselected,,Performance
-,ewmSecondHeaderButtonUnselectedList,,span[ng-click="selectSubview(listSelectorName)"],span,ng-binding ewmSecondHeaderButtonUnselected,,List
-,ewmSecondHeaderPerformancePeriod,span,ewmSecondHeaderPerformancePeriod ng-binding,,,,YTD
-,portfolioTitle,span,portfolioTitle ng-binding,,,,Portfolios
-,portfolioGrossAUM,span,portfolioGrossAUM ng-binding,,,,Gross AuM (HKD)
-,portfolioYTD,span,portfolioYTD ng-binding,,,,YTD
-,accordionGroupHeadingText,div,accordionGroupHeadingText ng-binding,,,,Analysis Spotlight
-,sidebarAssetsMessage,div,sidebarAssetsMessage,,,,Your Asset Allocation analysis has surfaced these findings.
-,sidebarAssetsColumnLabel_sidebarAssetsVolumeColumn,span,sidebarAssetsColumnLabel sidebarAssetsVolumeColumn ng-binding,,,,Current
-,sidebarAssetsColumnLabel_sidebarAssetsTypeColumn,span,sidebarAssetsColumnLabel sidebarAssetsTypeColumn ng-binding,,,,Class
-,sidebarAssetsColumnLabel_sidebarAssetsYTDColumn,span,sidebarAssetsColumnLabel sidebarAssetsYTDColumn ng-binding,,,,YTD
-,accordionGroupHeading_accordionGroupHeadingClosed_Analysis_Spotlight,div,accordionGroupHeading accordionGroupHeadingClosed,div,accordionGroupHeadingText ng-binding,,"Winners,Losers,Top Positions"
-,accordionGroupHeading_accordionGroupHeadingClosed_Winners,div,accordionGroupHeading accordionGroupHeadingClosed,div,accordionGroupHeadingText ng-binding,,"Analysis Spotlight,Losers,Top Positions"
-,accordionGroupHeading_accordionGroupHeadingClosed_Losers,div,accordionGroupHeading accordionGroupHeadingClosed,div,accordionGroupHeadingText ng-binding,,"Analysis Spotlight,Winners,Top Positions"
-,accordionGroupHeading_accordionGroupHeadingClosed_Top_Positions,div,accordionGroupHeading accordionGroupHeadingClosed,div,accordionGroupHeadingText ng-binding,,"Analysis Spotlight,Winners,Losers"
-,winners_discription,,div[heading="Winners"],span,sidebarStandingsDescriptionColumn sidebarStandingsHeaderText ng-binding,,Description
-,winners_value,,div[heading="Winners"],span,sidebarStandingsValueColumn sidebarStandingsHeaderText ng-binding,,Value(HKD)
-,winners_chg,,div[heading="Winners"],span,sidebarStandingsChangeColumn sidebarChangeHeaderText ng-binding,,%Chg
-,Losers_discription,,div[heading="Losers"],span,sidebarStandingsDescriptionColumn sidebarStandingsHeaderText ng-binding,,Description
-,Losers_value,,div[heading="Losers"],span,sidebarStandingsValueColumn sidebarStandingsHeaderText ng-binding,,Value(HKD)
-,Losers_chg,,div[heading="Losers"],span,sidebarStandingsChangeColumn sidebarChangeHeaderText ng-binding,,%Chg
-,Top_Positions_discription,,div[heading="Top Positions"],span,sidebarStandingsDescriptionColumn sidebarStandingsHeaderText ng-binding,,Description
-,Top_Positions_value,,div[heading="Top Positions"],span,sidebarStandingsValueColumn sidebarStandingsHeaderText ng-binding,,Value(HKD)
-,Top_Positions_chg,,div[heading="Top Positions"],span,sidebarStandingsChangeColumn sidebarChangeHeaderText ng-binding,,%Chg
-,ewmFooterMenuIcon,img,ewmFooterMenuIcon,,,src,img/footer/footer-menu.png
+prefix,key,tag,id,xpath,class,tag_1,class_1,attribute,expect
+logined_home,MyAlertsText,,MyAlertsText,,,,,,My Alerts
+,MyPortfoliosText,,MyPortfoliosText,,,,,,My Portfolios
+,MyEventsText,,MyEventsText,,,,,,My Events
+,LogOutText,,LogOutText,,,,,,Log Out
+,headertitleMyPortfolios,,,"//*[@id=""stateBar""]/span[1]",,,,,My Portfolios

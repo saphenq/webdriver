@@ -1,4 +1,4 @@
-package com.ubs.ewm.test.exception;
+package com.moodys.atom.exception;
 
 import org.openqa.selenium.TimeoutException;
 

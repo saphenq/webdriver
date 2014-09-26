@@ -1,8 +1,8 @@
-package com.ubs.ewm.test.base;
+package com.moodys.atom.base;
 
 import java.util.ResourceBundle;
 
-import com.ubs.ewm.test.utils.MyUtils;
+import com.moodys.atom.utils.MyUtils;
 
 public class Base {
 	public static ResourceBundle bundle = null;

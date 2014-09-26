@@ -1,4 +1,4 @@
-package com.ubs.ewm.test.common;
+package com.moodys.atom.common;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;

@@ -1,4 +1,4 @@
-package com.ubs.ewm.test.base;
+package com.moodys.atom.base;
 
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;

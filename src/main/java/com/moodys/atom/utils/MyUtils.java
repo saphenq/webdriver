@@ -1,4 +1,4 @@
-package com.ubs.ewm.test.utils;
+package com.moodys.atom.utils;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

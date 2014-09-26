@@ -1,9 +1,9 @@
-package com.ubs.ewm.test.listener;
+package com.moodys.atom.listener;
 
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
 
-import com.ubs.ewm.test.base.ScreenShotBase;
+import com.moodys.atom.base.ScreenShotBase;
 
 public class CustomListener extends TestListenerAdapter {
 
